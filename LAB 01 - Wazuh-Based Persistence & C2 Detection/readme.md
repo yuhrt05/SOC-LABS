@@ -1,7 +1,7 @@
 # 🛡️ LAB 01 – Wazuh-Based Persistence & C2 Detection
 
 ## 📌 Mục tiêu
-Lab này mô phỏng kịch bản tấn công trong đó adversary (kẻ tấn công) thiết lập:
+Lab này mô phỏng kịch bản tấn công trong đó attacker thiết lập:
 
 - **Persistence** – Duy trì quyền truy cập lâu dài trên hệ thống.  
 - **Command & Control (C2)** – Duy trì kênh điều khiển và nhận lệnh từ máy chủ bên ngoài.
@@ -25,5 +25,5 @@ Wazuh phát hiện được:
 - Sinh cảnh báo trực quan trên dashboard Wazuh.  
 
 Ngoài ra, SOC Analyst có thể:
-- Phân tích log từ nhiều nguồn (Sysmon, Windows Event, Network Log).  
 - Xuất báo cáo ngắn gọn về kỹ thuật tấn công, IoC, và khuyến nghị phòng thủ.  
+
